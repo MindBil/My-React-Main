@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(224, 223, 223);
+  font-family:   sans-serif;
+}
+
+header-img {
+width: 100%;
+}
+nav a{
+  color: white;
+}
+.himg{
+  width: 20%;
+}
+nav{
+  background-color: rgb(20, 72, 88);
+  height: 3em;
+}
+nav a{
+  line-height: 3em;
+  padding: 1em;
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+article{
+  background-color: rgb(146, 192, 59);
+  height: 20em;
+}
+article p{
+  color: white;
+  text-align: center;
+  line-height: 15em;
+}
+section{
+  display: flex;
+  background-color: white;
+  
+}
+.miniArticles div{
+  padding: 1em;
+}
+.mainArticleWrapper{
+  display: block;
+  max-width: 70%;
+}
+aside{
+  background-color: rgb(224, 223, 223);
+  width: 30%;
+}
+aside a, h1{
+  color: black;
+  text-decoration: none;
+  padding: 1em;
+}
