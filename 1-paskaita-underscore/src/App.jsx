@@ -1,6 +1,7 @@
+import './App.css'
 const App = () => {
-//returne turi buti JSX
-//JSX - java script + html
+  //returne turi buti JSX
+  //JSX - java script + html
   return (<div>
     <header>
       <img class="himg" src="https://www.esencialcostarica.com/eng/wp-content/uploads/2022/09/site-logo-.jpeg" alt="" />
