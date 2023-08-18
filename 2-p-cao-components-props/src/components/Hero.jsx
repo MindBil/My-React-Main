@@ -1,30 +1,19 @@
-import PropTypes from "prop-types";
+// import React from 'react';
 
-const Hero = (props) => {
-    return (
-        <div
-        style={{
-            backgroundImage: `url(${props.imageUrl})`,
-            height: 400,
-            color: "white",
-            duisplay: "flex",
-            flexDirection: "column",
-            justifyContent: "space-around",
-            alignItems: "center", 
-        }}
-        >
-            <h1>{props.title}</h1>
-            <p>{props.subtitle}</p>
-            <button>{props.buttonText}</button>
-        </div>
-    );
-};
+// const Hero = ({ title, subtitle, color }) => {
+//   const heroStyle = {
+//     backgroundColor: color,
+//     padding: '20px',
+//     color: 'white',
+//     textAlign: 'center'
+//   };
 
-Hero.propTypes = {
-    imageUrl: PropTypes.string,
-    title: PropTypes.string,
-    subtitle: PropTypes.string,
-    buttonText: PropTypes.string,
-};
+//   return (
+//     <div style={heroStyle}>
+//       <h1>{title}</h1>
+//       <h2>{subtitle}</h2>
+//     </div>
+//   );
+// };
 
-export default Hero;
+// export default Hero;
