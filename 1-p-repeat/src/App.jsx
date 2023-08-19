@@ -2,6 +2,7 @@
 import Welcome from "./components/Welcome"
 // import WelcomeClass from "./components/WelcomeClass";
 import Button from "./components/FuncButton"
+import Div from "./components/FuncDiv"
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       <Welcome name="Tomas"/>
       <div><br />
         <button>Push me</button>
-        <Button />
+      <Button />
+      <Div />
       </div>
     </div>
     
