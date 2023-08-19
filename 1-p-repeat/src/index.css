@@ -1,4 +1,13 @@
 /* //index.css naudojama globaliems dalykams */
 .tomato{
   background-color: tomato;
+  padding: 1rem;
+}
+button{
+  width: 24rem;
+  height: 5rem;
+  font-size: 28px;
+  font-weight: bold;
+  color: blueviolet;
+  margin: 1rem;
 }
