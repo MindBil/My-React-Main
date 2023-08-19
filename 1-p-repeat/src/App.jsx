@@ -3,7 +3,8 @@ import Welcome from "./components/Welcome"
 // import WelcomeClass from "./components/WelcomeClass";
 import Button from "./components/FuncButton"
 import Div from "./components/FuncDiv"
-
+import FuncButton2 from "./components/FuncButton2"
+import FuncDiv2 from "./components/FuncDiv2"
 const App = () => {
   return (
     <div className="tomato">
@@ -15,6 +16,9 @@ const App = () => {
       <Button />
       <Div />
       </div>
+      <FuncButton2 title="I AM BUTTON"/>
+      <FuncButton2 title="I AM CAT"/>
+      <FuncDiv2 />
     </div>
     
   );
