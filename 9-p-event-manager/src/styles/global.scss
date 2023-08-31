@@ -5,6 +5,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -18,6 +22,8 @@ a {
   }
 }
 
-p {
+p,
+h1,
+h2 {
   margin: 0;
 }

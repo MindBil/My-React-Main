@@ -1,29 +1,15 @@
 .navigation {
-    &-header {
-      display: flex;
-      justify-content: space-between;
-      padding: 2rem;
-      border-bottom: 1px solid lightgray;
-    }
-  
-    &-logo {
-        width: 150px;
-        height: auto;
-    }
-  
-    &-item {
-      margin-left: 1rem;
-    }
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border-bottom: 1px solid lightgray;
   }
 
-  @media (max-width: 768px) {
-    .navigation-logo {
-        width: 120px;
-    }
-  }
+  // &-logo {
+  // }
 
-  @media (max-width: 480px) {
-    .navigation-logo {
-        width: 120px;
-    }
+  &-item {
+    margin-left: 1rem;
   }
+}

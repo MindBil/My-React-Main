@@ -1,15 +1,23 @@
 import PropTypes from "prop-types";
 import { BsPersonFillCheck } from "react-icons/bs";
+import { Link, generatePath } from "react-router-dom";
+import { EVENT_PATH } from "../routes/routes";
 import "./EventCard.scss";
 
 const EventCard = ({ event }) => {
-  const { imageUrl, title, startingDate, attendanceeCount } = event;
+  const { id, imageUrl, title, startingDate, endingDate, attendanceeCount } =
+    event;
+
   return (
     <div className="card-container">
       <img src={imageUrl} alt={title} className="card-img" />
       <div className="card-info">
-        <p className="card-title">{title}</p>
-        <p className="card-date">{startingDate}</p>
+        <Link to={generatePath(EVENT_PATH, { id })} className="card-title">
+          {title}
+        </Link>
+        <p className="card-date">
+          {startingDate} - {endingDate}
+        </p>
       </div>
       <div>
         <p className="card-additionalInfo">
@@ -23,6 +31,7 @@ const EventCard = ({ event }) => {
 
 EventCard.propTypes = {
   event: PropTypes.shape({
+    id: PropTypes.number.isRequired,
     imageUrl: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     startingDate: PropTypes.string.isRequired,
