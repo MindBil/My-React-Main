@@ -5,7 +5,12 @@ import "./NavigationBar.scss";
 const NavigationBar = () => {
   return (
     <header className="navigation-header">
-      <img src="" alt="logo" className="navigation-logo" />
+      <img src="https://media.istockphoto.com/id/860088314/vector/sport-pub-soccer-pub-football-ball-vector-icon.jpg?s=170667a&w=0&k=20&c=euYlEcrhIiQXXrQArmSaJWl4kueQsqdkPhE1RzilbK8=" alt="logo" className="navigation-logo" />
+      <div className="navigation-name">
+      <h1>SPORTS PUB VILNIUS</h1>
+      <h3>FOOTBALL-BEER-SLEEP-REPEAT</h3>
+      </div>
+      
       <nav>
         {topNavigationItems.map((navItem) => (
           <Link

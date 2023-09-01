@@ -10,7 +10,7 @@ const Event = () => {
     return <div>Event not found</div>;
   }
 
-  const { imageUrl, title, startingDate, endingDate, description } = foundEvent;
+  const { imageUrl, title, startingDate, endingDate, description, location } = foundEvent;
 
   return (
     <div className="event">
@@ -20,6 +20,7 @@ const Event = () => {
       </p>
       <h1>{title}</h1>
       <p>{description}</p>
+      <p>{location}</p>
     </div>
   );
 };

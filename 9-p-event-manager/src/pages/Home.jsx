@@ -23,6 +23,7 @@ const Home = () => {
             </div>
           ))
         : "There are no created events yet."}
+        <p>Address: Fanų g. 1, Vilnius, LT-00000</p>
     </div>
   );
 };

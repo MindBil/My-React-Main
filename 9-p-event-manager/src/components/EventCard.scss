@@ -39,6 +39,11 @@
     align-items: flex-end;
     gap: 0.25rem;
   }
+
+  &-location {
+    font-size: 0.9rem;
+    color: grey;
+  }
 }
 
 @media (max-width: 768px) {

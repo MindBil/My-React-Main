@@ -5,7 +5,7 @@ import { EVENT_PATH } from "../routes/routes";
 import "./EventCard.scss";
 
 const EventCard = ({ event }) => {
-  const { id, imageUrl, title, startingDate, endingDate, attendanceeCount } =
+  const { id, imageUrl, title, startingDate, endingDate, attendanceeCount, location } =
     event;
 
   return (
@@ -17,6 +17,9 @@ const EventCard = ({ event }) => {
         </Link>
         <p className="card-date">
           {startingDate} - {endingDate}
+        </p>
+        <p className="card-location">
+          {location}
         </p>
       </div>
       <div>
@@ -37,6 +40,7 @@ EventCard.propTypes = {
     startingDate: PropTypes.string.isRequired,
     endingDate: PropTypes.string.isRequired,
     attendanceeCount: PropTypes.number.isRequired,
+    location: PropTypes.string.isRequired,
   }),
 };
 

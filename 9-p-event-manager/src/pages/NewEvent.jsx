@@ -13,6 +13,7 @@ const NewEvent = () => {
   const [attendanceeCount, setAttendanceeCount] = useState(0);
   const [startingDate, setStartingDate] = useState("");
   const [endingDate, setEndingDate] = useState("");
+  const [location, setLocation] = useState("");
 
   const navigate = useNavigate();
 
@@ -52,6 +53,12 @@ const NewEvent = () => {
         value={imageUrl}
         onChange={(e) => setImageUrl(e.target.value)}
         placeholder="Image url..."
+        required
+      />
+      <Input
+        value={location}
+        onChange={(e) => setLocation(e.target.value)}
+        placeholder="Location..."
         required
       />
       <Input
