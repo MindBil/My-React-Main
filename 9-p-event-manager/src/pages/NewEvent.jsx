@@ -27,6 +27,7 @@ const NewEvent = () => {
       attendanceeCount,
       startingDate,
       endingDate,
+      location,
     };
     const events = JSON.parse(localStorage.getItem("event")) || [];
     localStorage.setItem("event", JSON.stringify([...events, newEvent]));
