@@ -12,3 +12,7 @@ Currently, two official plugins are available:
 -Personalizuoti event puslapį pagal savo nuožiūrą (dog events, cat events, crypto events ir t.t.)
 -Pridėti papildomą page
 -Pridėti error page ir pastilizuotį jį (jeigu nėra route t.y. path=”*”)
+
+-Panaudokite bent vieną hover ar kitokią CSS pseudo-klasę
+-Pridėkite bent vieną CSS animaciją ir vieną perėjimą (transition)
+-Sukurkite bent vieną styled component, kurio stilius pasikeistų nuo paduotų props
