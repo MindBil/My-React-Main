@@ -1,0 +1,27 @@
+.navigation {
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1rem;
+  }
+
+  &-logo {
+    height: 100px;
+  }
+
+  &-item {
+    margin-left: 1rem;
+  }
+  
+  &-name {
+    text-align: center;
+  }
+  &-name h1 {
+    color: green;
+  }
+  &-name h3 {
+    color: rgb(87, 87, 87);
+  }
+}
