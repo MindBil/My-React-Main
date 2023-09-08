@@ -1,6 +1,3 @@
-// // src/App.js
-// import React from 'react';
-
 // function App() {
 //   return (
 //     <div>
@@ -11,10 +8,6 @@
 
 // export default App;
 
-// src/App.js
-
-// src/App.js
-
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
@@ -24,7 +17,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar /> {/* Include the Navbar component for navigation */}
+        <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
