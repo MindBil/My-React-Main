@@ -1,6 +1,15 @@
 import axios from "axios";
 import { useState } from "react";
 import { createTodo } from "./api/todo";
+// import { fetchPosts } from "./src/api/post.js";
+
+// fetchPosts()
+//   .then((posts) => {
+//     console.log("Fetched posts:", posts);
+//   })
+//   .catch((error) => {
+//     console.error("Error fetching posts:", error);
+//   });
 
 const AxiosPost = () => {
   const [title, setTitle] = useState("");
