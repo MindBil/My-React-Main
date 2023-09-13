@@ -1,0 +1,48 @@
+{
+    "games": [
+      {
+        "id": 1,
+        "title": "Spider-Man: Miles Morales",
+        "developer": "Insomniac Games",
+        "releaseDate": "2020-11-12",
+        "genre": "Action-Adventure",
+        "rating": 4.8
+      },
+      {
+        "id": 2,
+        "title": "Demon's Souls",
+        "developer": "Bluepoint Games",
+        "releaseDate": "2020-11-12",
+        "genre": "Action RPG",
+        "rating": 4.7
+      },
+      {
+        "id": 3,
+        "title": "Ratchet & Clank: Rift Apart",
+        "developer": "Insomniac Games",
+        "releaseDate": "2021-06-11",
+        "genre": "Action-Adventure",
+        "rating": 4.9
+      },
+      {
+        "id": 4,
+        "title": "Horizon Forbidden West",
+        "developer": "Guerrilla Games",
+        "releaseDate": "2022-02-18",
+        "genre": "Action RPG",
+        "rating": 4.8
+      },
+      {
+        "id": 5,
+        "title": "Returnal",
+        "developer": "Housemarque",
+        "releaseDate": "2021-04-30",
+        "genre": "Third-Person Shooter",
+        "rating": 4.6
+      }
+    ],
+    "meta": {},
+    "permissions": true,
+    "cors": true
+  }
+  
