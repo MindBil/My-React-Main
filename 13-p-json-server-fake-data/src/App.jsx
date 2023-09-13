@@ -2,8 +2,8 @@ import GameList from "./components/GameList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
         <h1>PS5 Game Library</h1>
       </header>
       <main>
