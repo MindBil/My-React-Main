@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"; // Import PropTypes
+
 const AnswerList = ({ answers }) => {
   return (
     <div>
@@ -9,6 +11,10 @@ const AnswerList = ({ answers }) => {
       </ul>
     </div>
   );
+};
+
+AnswerList.propTypes = {
+  answers: PropTypes.array.isRequired, // Add prop validation for the 'answers' prop
 };
 
 export default AnswerList;

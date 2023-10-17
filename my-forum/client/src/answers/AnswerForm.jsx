@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types"; // Import PropTypes
 
 const AnswerForm = ({ onAnswerSubmit }) => {
   const [answer, setAnswer] = useState("");
@@ -29,6 +30,10 @@ const AnswerForm = ({ onAnswerSubmit }) => {
       </form>
     </div>
   );
+};
+
+AnswerForm.propTypes = {
+  onAnswerSubmit: PropTypes.func.isRequired, // Add prop validation
 };
 
 export default AnswerForm;
