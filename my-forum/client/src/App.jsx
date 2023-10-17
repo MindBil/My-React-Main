@@ -20,6 +20,7 @@ import AnswerForm from "./answers/AnswerForm";
 import AnswerList from "./answers/AnswerList";
 import Header from "./components/common/Header";
 import Footer from "./components/common/Footer";
+import "./App.css";
 
 const App = () => {
   const [questions, setQuestions] = useState([]);

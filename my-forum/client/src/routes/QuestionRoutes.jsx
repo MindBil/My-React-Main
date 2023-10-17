@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Switch } from "react-router-dom";
 import QuestionList from "../components/questions/QuestionList";
 import QuestionDetail from "../components/questions/QuestionDetail";
