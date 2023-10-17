@@ -1,6 +1,6 @@
-import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "../components/common/Header";
+import Footer from "./components/common/Footer";
 import QuestionRoutes from "./QuestionRoutes";
 import AnswerRoutes from "./AnswerRoutes";
 import Login from "../components/auth/Login";
@@ -18,6 +18,7 @@ const App = () => {
           <Route path="/questions/:id/answer" component={AnswerRoutes} />
           {/* Add other routes here as needed */}
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

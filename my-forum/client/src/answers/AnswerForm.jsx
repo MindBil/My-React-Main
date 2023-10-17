@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const AnswerForm = ({ onAnswerSubmit }) => {
   const [answer, setAnswer] = useState("");

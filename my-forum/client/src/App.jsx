@@ -18,6 +18,8 @@ import QuestionForm from "./components/questions/QuestionForm";
 import QuestionList from "./components/questions/QuestionList";
 import AnswerForm from "./answers/AnswerForm";
 import AnswerList from "./answers/AnswerList";
+import Header from "./components/common/Header";
+import Footer from "./components/common/Footer";
 
 const App = () => {
   const [questions, setQuestions] = useState([]);
@@ -35,10 +37,12 @@ const App = () => {
 
   return (
     <div>
+      <Header />
       <QuestionForm onQuestionSubmit={handleQuestionSubmit} />
       <QuestionList questions={questions} />
       <AnswerForm onAnswerSubmit={handleAnswerSubmit} />
       <AnswerList answers={answers} />
+      <Footer />
     </div>
   );
 };
